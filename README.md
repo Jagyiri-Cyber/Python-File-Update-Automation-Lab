@@ -35,15 +35,15 @@ In order to remove individual IP addresses from the allow list, I needed it to b
 The **.split()** function is called by appending it to a string variable. It works by converting the contents of a string to a list. The purpose of splitting **ip_addresses** into a list is to make it easier to remove IP addresses from the allow list. By default, the **.split()** function splits the text by whitespace into list elements. In this algorithm, the **.split()** function takes the data stored in the variable **ip_addresses**, which is a string of IP addresses that are each separated by a whitespace, and it converts this string into a list of IP addresses. To store this list, I reassigned it back to the variable **ip_addresses**. 
 
 ### Iterate through the remove list
-A key part of my algorithm involves iterating through the IP addresses that are elements in the remove_list. To do this, I incorporated a for loop:
+A key part of my algorithm involves iterating through the IP addresses that are elements in the **remove_list**. To do this, I incorporated a **for** loop:
 ![image](https://github.com/user-attachments/assets/47a12f96-c5ce-498d-a08e-6c2cc1530c9c)
 
  
 
-The for loop in Python repeats code for a specified sequence. The overall purpose of the for loop in a Python algorithm like this is to apply specific code statements to all elements in a sequence. The for keyword starts the for loop. It is followed by the loop variable element and the keyword in. The keyword in indicates to iterate through the sequence ip_addresses and assign each value to the loop variable element. 
+The **for** loop in Python repeats code for a specified sequence. The overall purpose of the **for** loop in a Python algorithm like this is to apply specific code statements to all elements in a sequence. The **for** keyword starts the for loop. It is followed by the loop variable element and the keyword **in**. The keyword in indicates to iterate through the sequence **ip_addresses** and assign each value to the loop variable **element**. 
 
 ### Remove IP addresses that are on the remove list
-My algorithm requires removing any IP address from the allow list, ip_addresses, that is also contained in remove_list.  Because there were not any duplicates in ip_addresses, I was able to use the following code to do this:
+My algorithm requires removing any IP address from the allow list, **ip_addresses**, that is also contained in remove_list.  Because there were not any duplicates in ip_addresses, I was able to use the following code to do this:
 ![image](https://github.com/user-attachments/assets/c3da9990-072a-44d9-83ac-79c111d19f8f)
 
  
